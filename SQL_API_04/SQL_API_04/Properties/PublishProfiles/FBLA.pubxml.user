@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>\\win-1inmcq6b890\WorkgroupShares\DavidKopala\Websites\FBLA</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>12/27/2014 16:29:57</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.Data.Edm.resources.dll">
+      <publishTime>12/28/2014 18:34:46</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.Data.OData.resources.dll">
+      <publishTime>12/28/2014 18:34:57</publishTime>
+    </File>
+    <File Include="bin/de/System.Spatial.resources.dll">
+      <publishTime>12/28/2014 18:34:52</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>12/27/2014 16:33:11</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>12/27/2014 16:33:11</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Data.Edm.resources.dll">
+      <publishTime>12/28/2014 18:34:47</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Data.OData.resources.dll">
+      <publishTime>12/28/2014 18:34:57</publishTime>
+    </File>
+    <File Include="bin/es/System.Spatial.resources.dll">
+      <publishTime>12/28/2014 18:34:52</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.Data.Edm.resources.dll">
+      <publishTime>12/28/2014 18:34:47</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.Data.OData.resources.dll">
+      <publishTime>12/28/2014 18:34:57</publishTime>
+    </File>
+    <File Include="bin/fr/System.Spatial.resources.dll">
+      <publishTime>12/28/2014 18:34:52</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.Data.Edm.resources.dll">
+      <publishTime>12/28/2014 18:34:47</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.Data.OData.resources.dll">
+      <publishTime>12/28/2014 18:34:57</publishTime>
+    </File>
+    <File Include="bin/it/System.Spatial.resources.dll">
+      <publishTime>12/28/2014 18:34:52</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.Data.Edm.resources.dll">
+      <publishTime>12/28/2014 18:34:47</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.Data.OData.resources.dll">
+      <publishTime>12/28/2014 18:34:57</publishTime>
+    </File>
+    <File Include="bin/ja/System.Spatial.resources.dll">
+      <publishTime>12/28/2014 18:34:52</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.Data.Edm.resources.dll">
+      <publishTime>12/28/2014 18:34:47</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.Data.OData.resources.dll">
+      <publishTime>12/28/2014 18:34:57</publishTime>
+    </File>
+    <File Include="bin/ko/System.Spatial.resources.dll">
+      <publishTime>12/28/2014 18:34:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.Edm.dll">
+      <publishTime>12/28/2014 18:34:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.OData.dll">
+      <publishTime>12/28/2014 18:34:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>12/27/2014 16:29:55</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>12/27/2014 16:30:02</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.Data.Edm.resources.dll">
+      <publishTime>12/28/2014 18:34:47</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.Data.OData.resources.dll">
+      <publishTime>12/28/2014 18:34:57</publishTime>
+    </File>
+    <File Include="bin/ru/System.Spatial.resources.dll">
+      <publishTime>12/28/2014 18:34:52</publishTime>
+    </File>
+    <File Include="bin/SQL_API_04.dll">
+      <publishTime>01/16/2015 22:33:38</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>12/27/2014 16:30:05</publishTime>
+    </File>
+    <File Include="bin/System.Spatial.dll">
+      <publishTime>12/28/2014 18:34:52</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>12/27/2014 16:29:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>12/27/2014 16:30:06</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.OData.dll">
+      <publishTime>12/28/2014 18:35:02</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>12/27/2014 16:30:07</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>12/27/2014 16:29:55</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>12/27/2014 16:29:53</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>12/27/2014 16:29:52</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>12/27/2014 16:29:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>12/27/2014 16:29:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>12/27/2014 16:29:54</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>12/27/2014 16:29:57</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.Data.Edm.resources.dll">
+      <publishTime>12/28/2014 18:34:47</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.Data.OData.resources.dll">
+      <publishTime>12/28/2014 18:34:57</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Spatial.resources.dll">
+      <publishTime>12/28/2014 18:34:52</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.Data.Edm.resources.dll">
+      <publishTime>12/28/2014 18:34:47</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.Data.OData.resources.dll">
+      <publishTime>12/28/2014 18:34:57</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Spatial.resources.dll">
+      <publishTime>12/28/2014 18:34:52</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>12/27/2014 16:29:35</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>12/27/2014 16:29:35</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>12/27/2014 16:29:22</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>12/27/2014 16:29:22</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>12/27/2014 16:29:35</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>12/27/2014 16:29:35</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>12/27/2014 16:29:35</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>12/27/2014 16:29:35</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>12/27/2014 16:29:22</publishTime>
+    </File>
+    <File Include="Models/GroupModel.edmx.diagram">
+      <publishTime>01/06/2015 21:09:05</publishTime>
+    </File>
+    <File Include="Models/LocationUsersModels.edmx.diagram">
+      <publishTime>12/27/2014 16:33:21</publishTime>
+    </File>
+    <File Include="Models/MembershipModel.edmx.diagram">
+      <publishTime>12/28/2014 16:13:57</publishTime>
+    </File>
+    <File Include="Models/PostModel.edmx.diagram">
+      <publishTime>12/28/2014 16:39:09</publishTime>
+    </File>
+    <File Include="Models/PostsConnectionsModels.edmx.diagram">
+      <publishTime>01/12/2015 16:45:31</publishTime>
+    </File>
+    <File Include="Models/RealSub01.edmx.diagram">
+      <publishTime>01/11/2015 11:33:21</publishTime>
+    </File>
+    <File Include="Models/Sub.edmx.diagram">
+      <publishTime>01/10/2015 15:35:48</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>12/28/2014 18:35:03</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>12/27/2014 16:29:35</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>12/27/2014 16:29:34</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>12/27/2014 16:29:37</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>12/27/2014 16:29:37</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>12/27/2014 16:29:37</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>12/27/2014 16:29:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>12/27/2014 16:29:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>12/27/2014 16:29:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>12/27/2014 16:29:59</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>12/27/2014 16:29:56</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>12/27/2014 16:29:58</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>12/27/2014 16:29:58</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>12/27/2014 16:29:56</publishTime>
+    </File>
+    <File Include="Views/Connections/Create.cshtml">
+      <publishTime>01/16/2015 22:31:02</publishTime>
+    </File>
+    <File Include="Views/Connections/Delete.cshtml">
+      <publishTime>01/16/2015 22:31:03</publishTime>
+    </File>
+    <File Include="Views/Connections/Details.cshtml">
+      <publishTime>01/16/2015 22:31:05</publishTime>
+    </File>
+    <File Include="Views/Connections/Edit.cshtml">
+      <publishTime>01/16/2015 22:31:06</publishTime>
+    </File>
+    <File Include="Views/Connections/Index.cshtml">
+      <publishTime>01/16/2015 22:31:07</publishTime>
+    </File>
+    <File Include="Views/defaultSubGroups/Create.cshtml">
+      <publishTime>01/16/2015 22:31:35</publishTime>
+    </File>
+    <File Include="Views/defaultSubGroups/Delete.cshtml">
+      <publishTime>01/16/2015 22:31:37</publishTime>
+    </File>
+    <File Include="Views/defaultSubGroups/Details.cshtml">
+      <publishTime>01/16/2015 22:31:38</publishTime>
+    </File>
+    <File Include="Views/defaultSubGroups/Edit.cshtml">
+      <publishTime>01/16/2015 22:31:39</publishTime>
+    </File>
+    <File Include="Views/defaultSubGroups/Index.cshtml">
+      <publishTime>01/16/2015 22:31:41</publishTime>
+    </File>
+    <File Include="Views/Group/Create.cshtml">
+      <publishTime>01/06/2015 21:16:47</publishTime>
+    </File>
+    <File Include="Views/Group/Delete.cshtml">
+      <publishTime>01/06/2015 21:16:48</publishTime>
+    </File>
+    <File Include="Views/Group/Details.cshtml">
+      <publishTime>01/06/2015 21:16:50</publishTime>
+    </File>
+    <File Include="Views/Group/Edit.cshtml">
+      <publishTime>01/06/2015 21:16:52</publishTime>
+    </File>
+    <File Include="Views/Group/Index.cshtml">
+      <publishTime>01/06/2015 21:16:54</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>12/27/2014 16:29:22</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>12/27/2014 16:29:22</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>12/27/2014 16:29:22</publishTime>
+    </File>
+    <File Include="Views/Location/Create.cshtml">
+      <publishTime>12/27/2014 16:35:02</publishTime>
+    </File>
+    <File Include="Views/Location/Delete.cshtml">
+      <publishTime>12/27/2014 16:35:04</publishTime>
+    </File>
+    <File Include="Views/Location/Details.cshtml">
+      <publishTime>12/27/2014 16:35:05</publishTime>
+    </File>
+    <File Include="Views/Location/Edit.cshtml">
+      <publishTime>12/27/2014 16:35:06</publishTime>
+    </File>
+    <File Include="Views/Location/Index.cshtml">
+      <publishTime>12/27/2014 16:35:07</publishTime>
+    </File>
+    <File Include="Views/Membership/Create.cshtml">
+      <publishTime>12/28/2014 16:17:46</publishTime>
+    </File>
+    <File Include="Views/Membership/Delete.cshtml">
+      <publishTime>12/28/2014 16:17:48</publishTime>
+    </File>
+    <File Include="Views/Membership/Details.cshtml">
+      <publishTime>12/28/2014 16:17:49</publishTime>
+    </File>
+    <File Include="Views/Membership/Edit.cshtml">
+      <publishTime>12/28/2014 16:17:51</publishTime>
+    </File>
+    <File Include="Views/Membership/Index.cshtml">
+      <publishTime>12/28/2014 16:17:52</publishTime>
+    </File>
+    <File Include="Views/Post/Create.cshtml">
+      <publishTime>12/28/2014 16:40:52</publishTime>
+    </File>
+    <File Include="Views/Post/Delete.cshtml">
+      <publishTime>12/28/2014 16:40:53</publishTime>
+    </File>
+    <File Include="Views/Post/Details.cshtml">
+      <publishTime>12/28/2014 16:40:55</publishTime>
+    </File>
+    <File Include="Views/Post/Edit.cshtml">
+      <publishTime>12/28/2014 16:40:56</publishTime>
+    </File>
+    <File Include="Views/Post/Index.cshtml">
+      <publishTime>12/28/2014 16:40:57</publishTime>
+    </File>
+    <File Include="Views/Posts/Create.cshtml">
+      <publishTime>01/16/2015 22:32:17</publishTime>
+    </File>
+    <File Include="Views/Posts/Delete.cshtml">
+      <publishTime>01/16/2015 22:32:19</publishTime>
+    </File>
+    <File Include="Views/Posts/Details.cshtml">
+      <publishTime>01/16/2015 22:32:20</publishTime>
+    </File>
+    <File Include="Views/Posts/Edit.cshtml">
+      <publishTime>01/16/2015 22:32:21</publishTime>
+    </File>
+    <File Include="Views/Posts/Index.cshtml">
+      <publishTime>01/16/2015 22:32:22</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>12/27/2014 16:29:22</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>01/06/2015 21:17:57</publishTime>
+    </File>
+    <File Include="Views/subGroups/Create.cshtml">
+      <publishTime>01/16/2015 22:30:20</publishTime>
+    </File>
+    <File Include="Views/subGroups/Delete.cshtml">
+      <publishTime>01/16/2015 22:30:22</publishTime>
+    </File>
+    <File Include="Views/subGroups/Details.cshtml">
+      <publishTime>01/16/2015 22:30:24</publishTime>
+    </File>
+    <File Include="Views/subGroups/Edit.cshtml">
+      <publishTime>01/16/2015 22:30:26</publishTime>
+    </File>
+    <File Include="Views/subGroups/Index.cshtml">
+      <publishTime>01/16/2015 22:30:28</publishTime>
+    </File>
+    <File Include="Views/subMemberships/Create.cshtml">
+      <publishTime>01/16/2015 22:33:05</publishTime>
+    </File>
+    <File Include="Views/subMemberships/Delete.cshtml">
+      <publishTime>01/16/2015 22:33:06</publishTime>
+    </File>
+    <File Include="Views/subMemberships/Details.cshtml">
+      <publishTime>01/16/2015 22:33:07</publishTime>
+    </File>
+    <File Include="Views/subMemberships/Edit.cshtml">
+      <publishTime>01/16/2015 22:33:09</publishTime>
+    </File>
+    <File Include="Views/subMemberships/Index.cshtml">
+      <publishTime>01/16/2015 22:33:10</publishTime>
+    </File>
+    <File Include="Views/User/Create.cshtml">
+      <publishTime>12/27/2014 16:35:35</publishTime>
+    </File>
+    <File Include="Views/User/Delete.cshtml">
+      <publishTime>12/27/2014 16:35:36</publishTime>
+    </File>
+    <File Include="Views/User/Details.cshtml">
+      <publishTime>12/27/2014 16:35:36</publishTime>
+    </File>
+    <File Include="Views/User/Edit.cshtml">
+      <publishTime>12/27/2014 16:35:37</publishTime>
+    </File>
+    <File Include="Views/User/Index.cshtml">
+      <publishTime>12/27/2014 16:35:38</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>12/27/2014 18:19:45</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>12/27/2014 16:29:22</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/12/2015 16:48:33</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="UsingPostModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Post">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserID" Type="Int32" Nullable="false" />
+    <Property Name="Content" Type="Double" />
+    <Property Name="Message" Type="String" MaxLength="2500" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="latitude" Type="Decimal" Precision="12" Scale="9" Nullable="false" />
+    <Property Name="longitude" Type="Decimal" Precision="12" Scale="9" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="UsingPostEntity" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Posts" EntityType="Self.Post" />
+  </EntityContainer>
+</Schema>

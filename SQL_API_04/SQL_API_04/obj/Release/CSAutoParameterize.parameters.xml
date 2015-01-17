@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="FBLA02Entities-Web.config Connection String" description="FBLA02Entities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.LocationUsersModels.csdl|res://*/Models.LocationUsersModels.ssdl|res://*/Models.LocationUsersModels.msl;provider=System.Data.SqlClient;provider connection string='data source=WIN-1INMCQ6B890\NHSCODING14;initial catalog=FBLA02;user id=&quot;David Kopala&quot;;password=a839364NHS!;MultipleActiveResultSets=True;App=EntityFramework'" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\david_000\\Documents\\Visual\ Studio\ 2013\\FBLA\\API\\04\\SQL_API_04\\SQL_API_04\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='FBLA02Entities']/@connectionString" />
+  </parameter>
+</parameters>

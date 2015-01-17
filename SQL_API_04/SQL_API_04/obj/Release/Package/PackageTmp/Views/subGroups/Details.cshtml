@@ -1,0 +1,42 @@
+﻿@model SQL_API_04.Models.subGroup
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>subGroup</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.parentGroupID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.parentGroupID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.pic)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.pic)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

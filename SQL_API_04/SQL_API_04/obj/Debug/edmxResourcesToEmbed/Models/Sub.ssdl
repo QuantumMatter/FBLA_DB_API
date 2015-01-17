@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SubModels.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="defaultSubGroups">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="groupID" Type="nchar" MaxLength="50" Nullable="false" />
+    <Property Name="subGroupID" Type="nchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="subGroup">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nchar" MaxLength="1" Nullable="false" />
+    <Property Name="parentGroupID" Type="int" Nullable="false" />
+    <Property Name="pic" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="subMembership">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="subGroupID" Type="int" Nullable="false" />
+    <Property Name="Role" Type="nchar" MaxLength="1" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="SubModelsStoreContainer">
+    <EntitySet Name="defaultSubGroups" EntityType="Self.defaultSubGroups" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="subGroup" EntityType="Self.subGroup" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="subMembership" EntityType="Self.subMembership" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

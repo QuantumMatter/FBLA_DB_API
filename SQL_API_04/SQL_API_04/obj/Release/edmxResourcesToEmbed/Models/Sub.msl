@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SubModelsStoreContainer" CdmEntityContainer="TrueSubEntities">
+    <EntitySetMapping Name="defaultSubGroups">
+      <EntityTypeMapping TypeName="SubModels.defaultSubGroup">
+        <MappingFragment StoreEntitySet="defaultSubGroups">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="groupID" ColumnName="groupID" />
+          <ScalarProperty Name="subGroupID" ColumnName="subGroupID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="subGroups">
+      <EntityTypeMapping TypeName="SubModels.subGroup">
+        <MappingFragment StoreEntitySet="subGroup">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="parentGroupID" ColumnName="parentGroupID" />
+          <ScalarProperty Name="pic" ColumnName="pic" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="subMemberships">
+      <EntityTypeMapping TypeName="SubModels.subMembership">
+        <MappingFragment StoreEntitySet="subMembership">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="subGroupID" ColumnName="subGroupID" />
+          <ScalarProperty Name="Role" ColumnName="Role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
